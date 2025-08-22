@@ -10,15 +10,17 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo y descripción */}
           <div className="md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-inapsis-orange to-inapsis-purple rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">I</span>
-              </div>
+            <div className="flex items-center space-x-3 mb-4">
+              <img 
+                src="/images/piezas-09.png" 
+                alt="Inapsis Logo" 
+                className="h-10 w-auto"
+              />
               <span className="text-2xl font-bold">Inapsis</span>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
               Transformamos tu negocio con inteligencia artificial. 
-              Plataforma de bots IA, consultoría especializada y automatizaciones 
+              Plataforma de bots IA para WhatsApp y web, consultoría especializada y automatizaciones 
               que impulsan el crecimiento de tu empresa.
             </p>
             <div className="flex space-x-4">
@@ -86,9 +88,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contacto</h3>
             <div className="space-y-2 text-gray-300">
-              <p>info@inapsis.com</p>
-              <p>+54 11 1234-5678</p>
-              <p>Buenos Aires, Argentina</p>
+              <p>info@inapsis.com.ar</p>
+              <p>+54 9 3834241994</p>
+              <p>Catamarca, Argentina</p>
             </div>
           </div>
         </div>

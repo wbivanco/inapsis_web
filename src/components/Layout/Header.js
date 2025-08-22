@@ -19,11 +19,14 @@ const Header = () => {
       <div className="container-custom">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-inapsis-orange to-inapsis-purple rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">I</span>
+          <Link to="/" className="flex items-center">
+            <div className="flex items-center">
+              <img 
+                src="/images/piezas-08.png" 
+                alt="Inapsis Logo" 
+                className="h-12 w-auto"
+              />
             </div>
-            <span className="text-2xl font-bold text-gray-800">Inapsis</span>
           </Link>
 
           {/* Navegación desktop */}

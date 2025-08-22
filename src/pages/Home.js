@@ -18,7 +18,7 @@ const Home = () => {
                   </span>
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  Plataforma de bots IA, consultoría especializada y automatizaciones 
+                  Plataforma de bots IA para WhatsApp y web, consultoría especializada y automatizaciones 
                   que impulsan el crecimiento y la eficiencia de tu empresa.
                 </p>
               </div>
@@ -30,22 +30,6 @@ const Home = () => {
                 <Link to="/servicios" className="btn-outline text-center">
                   Conoce nuestros servicios
                 </Link>
-              </div>
-              
-              {/* Estadísticas */}
-              <div className="grid grid-cols-3 gap-6 pt-8">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-inapsis-orange">50+</div>
-                  <div className="text-sm text-gray-600">Proyectos exitosos</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-inapsis-purple">95%</div>
-                  <div className="text-sm text-gray-600">Satisfacción del cliente</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-inapsis-orange">24/7</div>
-                  <div className="text-sm text-gray-600">Soporte disponible</div>
-                </div>
               </div>
             </div>
             
@@ -61,7 +45,7 @@ const Home = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold">Bots Inteligentes</h3>
-                      <p className="text-sm opacity-90">Automatización conversacional</p>
+                      <p className="text-sm opacity-90">WhatsApp, Web e IA</p>
                     </div>
                   </div>
                   
@@ -115,10 +99,10 @@ const Home = () => {
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Tecnología Avanzada</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Bots Multiplataforma</h3>
               <p className="text-gray-600">
-                Utilizamos las últimas tecnologías de IA y machine learning 
-                para crear soluciones inteligentes y escalables.
+                Nuestros bots funcionan en WhatsApp Business y se integran perfectamente 
+                en tu sitio web con inteligencia artificial avanzada.
               </p>
             </div>
             
@@ -130,8 +114,8 @@ const Home = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Experiencia Comprobada</h3>
               <p className="text-gray-600">
-                Más de 50 proyectos exitosos con clientes de diversos sectores 
-                y tamaños de empresa.
+                Más de 20 años de experiencia en el desarrollo de software 
+                y 6 años en la implementación de soluciones de IA.
               </p>
             </div>
             
