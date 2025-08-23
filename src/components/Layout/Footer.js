@@ -102,18 +102,18 @@ const Footer = () => {
               © {currentYear} Inapsis. Todos los derechos reservados.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <button 
-                onClick={() => window.open('/politica-privacidad', '_blank')}
-                className="text-gray-400 hover:text-inapsis-orange text-sm transition-colors duration-200 bg-transparent border-none cursor-pointer"
+              <Link 
+                to="/politica-privacidad"
+                className="text-gray-400 hover:text-inapsis-orange text-sm transition-colors duration-200"
               >
                 Política de Privacidad
-              </button>
-              <button 
-                onClick={() => window.open('/terminos-servicio', '_blank')}
-                className="text-gray-400 hover:text-inapsis-orange text-sm transition-colors duration-200 bg-transparent border-none cursor-pointer"
+              </Link>
+              <Link 
+                to="/terminos-servicio"
+                className="text-gray-400 hover:text-inapsis-orange text-sm transition-colors duration-200"
               >
                 Términos de Servicio
-              </button>
+              </Link>
             </div>
           </div>
         </div>
