@@ -74,7 +74,7 @@ const About = () => {
             </span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Somos una empresa líder en inteligencia artificial, comprometida con 
+            Somos una empresa especializada en inteligencia artificial, comprometida con 
             transformar negocios a través de soluciones tecnológicas innovadoras.
           </p>
         </div>
@@ -155,10 +155,11 @@ const About = () => {
               </h2>
               <div className="space-y-6 text-lg text-gray-600">
                 <p>
-                  Inapsis nació en 2020 con la visión de hacer la inteligencia artificial 
-                  accesible para empresas de todos los tamaños. Fundada por un equipo de 
-                  expertos en IA y emprendedores tecnológicos, comenzamos con un objetivo 
-                  claro: democratizar la tecnología más avanzada.
+                  Hace más de 20 años que desarrollamos soluciones de software para 
+                  empresas de distintos sectores. Desde hace 6 años, decidimos enfocarnos 
+                  en inteligencia artificial, combinando nuestra experiencia tecnológica 
+                  con el potencial transformador de la IA para crear soluciones innovadoras 
+                  y accesibles.
                 </p>
                 <p>
                   Desde nuestros inicios, hemos trabajado con más de 50 empresas, 
@@ -166,42 +167,42 @@ const About = () => {
                   soluciones de IA que transforman sus operaciones y resultados.
                 </p>
                 <p>
-                  Hoy, somos reconocidos como una de las empresas líderes en el sector 
-                  de IA en Latinoamérica, con un equipo de más de 20 profesionales 
-                  especializados y una cartera de proyectos exitosos que habla por sí sola.
+                  Actualmente, estamos en pleno crecimiento dentro del sector de IA en 
+                  Latinoamérica, con un equipo en expansión y una cartera de proyectos 
+                  innovadores que nos posicionan como una empresa en constante evolución.
                 </p>
               </div>
             </div>
             
             <div className="bg-gradient-to-br from-inapsis-orange to-inapsis-purple rounded-2xl p-8 text-white">
-              <h3 className="text-2xl font-bold mb-6">Nuestros Logros</h3>
-              <div className="space-y-6">
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
-                    <span className="text-2xl font-bold">50+</span>
+              <h3 className="text-2xl font-bold mb-8">Nuestros Logros</h3>
+              <div className="space-y-8">
+                <div className="flex items-start space-x-4">
+                  <div className="w-16 h-16 bg-white bg-opacity-20 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <span className="text-3xl font-bold">20+</span>
                   </div>
-                  <div>
-                    <div className="font-semibold">Proyectos Exitosos</div>
+                  <div className="min-w-0">
+                    <div className="font-semibold text-lg mb-1">Proyectos Exitosos</div>
                     <div className="text-sm opacity-90">Implementados en diversos sectores</div>
                   </div>
                 </div>
                 
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
-                    <span className="text-2xl font-bold">95%</span>
+                <div className="flex items-start space-x-4">
+                  <div className="w-16 h-16 bg-white bg-opacity-20 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <span className="text-3xl font-bold">20</span>
                   </div>
-                  <div>
-                    <div className="font-semibold">Satisfacción del Cliente</div>
-                    <div className="text-sm opacity-90">Basado en encuestas post-proyecto</div>
+                  <div className="min-w-0">
+                    <div className="font-semibold text-lg mb-1">Años de Experiencia</div>
+                    <div className="text-sm opacity-90">En desarrollo de software con tecnologías de vanguardia</div>
                   </div>
                 </div>
                 
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
-                    <span className="text-2xl font-bold">3</span>
+                <div className="flex items-start space-x-4">
+                  <div className="w-16 h-16 bg-white bg-opacity-20 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <span className="text-3xl font-bold">6</span>
                   </div>
-                  <div>
-                    <div className="font-semibold">Años de Experiencia</div>
+                  <div className="min-w-0">
+                    <div className="font-semibold text-lg mb-1">Años de Experiencia</div>
                     <div className="text-sm opacity-90">En el mercado de IA</div>
                   </div>
                 </div>
@@ -209,34 +210,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
-
-      {/* Equipo */}
-      <section className="bg-gray-50 section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Nuestro Equipo
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Conoce a los expertos que hacen posible la transformación digital de nuestros clientes.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {team.map((member, index) => (
-              <div key={index} className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 text-center">
-                <div className="w-20 h-20 bg-gradient-to-br from-inapsis-orange to-inapsis-purple rounded-full flex items-center justify-center text-3xl mx-auto mb-4">
-                  {member.image}
-                </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-1">{member.name}</h3>
-                <p className="text-inapsis-orange font-medium mb-3">{member.role}</p>
-                <p className="text-gray-600">{member.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      </section>      
 
       {/* CTA Section */}
       <section className="bg-gradient-to-r from-inapsis-orange to-inapsis-purple text-white section-padding">
