@@ -41,26 +41,7 @@ const About = () => {
     }
   ];
 
-  const team = [
-    {
-      name: 'Dr. Ana Martínez',
-      role: 'CEO & Fundadora',
-      description: 'Experta en IA con más de 15 años en el sector tecnológico.',
-      image: '👩‍💼'
-    },
-    {
-      name: 'Ing. Carlos Rodríguez',
-      role: 'CTO',
-      description: 'Especialista en machine learning y arquitectura de sistemas.',
-      image: '👨‍💻'
-    },
-    {
-      name: 'Lic. María González',
-      role: 'Directora de Consultoría',
-      description: 'Consultora estratégica con amplia experiencia en transformación digital.',
-      image: '👩‍💼'
-    }
-  ];
+
 
   return (
     <div className="min-h-screen">
