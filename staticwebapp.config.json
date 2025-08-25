@@ -1,4 +1,8 @@
 {
+  "platform": {
+    "apiRuntime": "node:16"
+  },
+  "skip_api_build": true,
   "routes": [
     {
       "route": "/servicios",
