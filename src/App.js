@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import CaseStudies from './pages/CaseStudies';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="servicios" element={<Services />} />
           <Route path="nosotros" element={<About />} />
           <Route path="contacto" element={<Contact />} />
+          <Route path="casos-exito" element={<CaseStudies />} />
           <Route path="politica-privacidad" element={<PrivacyPolicy />} />
           <Route path="terminos-servicio" element={<TermsOfService />} />
         </Route>

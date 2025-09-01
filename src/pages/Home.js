@@ -311,6 +311,47 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Casos de Éxito Preview */}
+      <section className="section-padding bg-white">
+        <div className="container-custom">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Casos de Éxito
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Descubre cómo hemos transformado empresas de diversos sectores 
+              con soluciones de IA innovadoras.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <div className="bg-gradient-to-br from-inapsis-orange to-inapsis-orange-light rounded-2xl p-6 text-white text-center">
+              <div className="text-4xl mb-4">🎓</div>
+              <h3 className="text-xl font-bold mb-2">Sector Educativo</h3>
+              <p className="opacity-90">Bot conversacional para gestión de trámites administrativos</p>
+            </div>
+            
+            <div className="bg-gradient-to-br from-inapsis-purple to-inapsis-purple-light rounded-2xl p-6 text-white text-center">
+              <div className="text-4xl mb-4">🌾</div>
+              <h3 className="text-xl font-bold mb-2">Agroindustria</h3>
+              <p className="opacity-90">Administración de documentación interna y procesamiento contable</p>
+            </div>
+            
+            <div className="bg-gradient-to-br from-inapsis-orange to-inapsis-orange-light rounded-2xl p-6 text-white text-center">
+              <div className="text-4xl mb-4">💻</div>
+              <h3 className="text-xl font-bold mb-2">Software</h3>
+              <p className="opacity-90">Generación automática de casos de testing y documentación técnica</p>
+            </div>
+          </div>
+          
+          <div className="text-center">
+            <Link to="/casos-exito" className="btn-outline">
+              Ver todos los casos de éxito
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="bg-gradient-to-r from-inapsis-orange to-inapsis-purple text-white section-padding">
         <div className="container-custom text-center">
