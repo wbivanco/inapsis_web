@@ -284,7 +284,7 @@ const CaseStudies = () => {
                 {/* Cloud & Infrastructure */}
                 <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-3">
                   <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 text-center h-full">
-                    <div className="w-20 h-20 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-2 shadow-sm">
+                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-1 shadow-lg">
                       <img 
                         src="/images/aws.png" 
                         alt="AWS Logo" 
@@ -298,7 +298,7 @@ const CaseStudies = () => {
                 
                 <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-3">
                   <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 text-center h-full">
-                    <div className="w-20 h-20 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-2 shadow-sm">
+                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-1 shadow-lg">
                       <img 
                         src="/images/azure.jpeg" 
                         alt="Azure Logo" 
@@ -312,7 +312,7 @@ const CaseStudies = () => {
                 
                 <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-3">
                   <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 text-center h-full">
-                    <div className="w-20 h-20 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-2 shadow-sm">
+                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-1 shadow-lg">
                       <img 
                         src="/images/docker.png" 
                         alt="Docker Logo" 
@@ -327,8 +327,12 @@ const CaseStudies = () => {
                 {/* AI & Machine Learning */}
                 <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-3">
                   <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 text-center h-full">
-                    <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center mx-auto mb-4">
-                      <span className="text-white font-bold text-lg">LLM</span>
+                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-1 shadow-lg">
+                      <img 
+                        src="/images/llm.png" 
+                        alt="LLM Logo" 
+                        className="w-full h-full object-contain"
+                      />
                     </div>
                     <h3 className="font-semibold text-gray-900 text-lg mb-2">Large Language Models</h3>
                     <p className="text-gray-600 text-sm">Modelos de lenguaje avanzados para IA conversacional</p>
@@ -337,8 +341,12 @@ const CaseStudies = () => {
                 
                 <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-3">
                   <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 text-center h-full">
-                    <div className="w-16 h-16 bg-gradient-to-br from-green-600 to-green-700 rounded-lg flex items-center justify-center mx-auto mb-4">
-                      <span className="text-white font-bold text-lg">Azure</span>
+                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-1 shadow-lg">
+                      <img 
+                        src="/images/azure openai.webp" 
+                        alt="Azure OpenAI Logo" 
+                        className="w-full h-full object-contain"
+                      />
                     </div>
                     <h3 className="font-semibold text-gray-900 text-lg mb-2">Azure OpenAI</h3>
                     <p className="text-gray-600 text-sm">Servicios de IA empresarial de Microsoft</p>
@@ -347,8 +355,12 @@ const CaseStudies = () => {
                 
                 <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-3">
                   <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 text-center h-full">
-                    <div className="w-16 h-16 bg-gradient-to-br from-green-400 to-green-500 rounded-lg flex items-center justify-center mx-auto mb-4">
-                      <span className="text-white font-bold text-lg">OpenAI</span>
+                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-1 shadow-lg">
+                      <img 
+                        src="/images/openai.png" 
+                        alt="OpenAI Logo" 
+                        className="w-full h-full object-contain"
+                      />
                     </div>
                     <h3 className="font-semibold text-gray-900 text-lg mb-2">OpenAI API</h3>
                     <p className="text-gray-600 text-sm">Acceso a modelos de IA de última generación</p>
@@ -358,8 +370,12 @@ const CaseStudies = () => {
                 {/* LangChain Ecosystem */}
                 <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-3">
                   <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 text-center h-full">
-                    <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mx-auto mb-4">
-                      <span className="text-white font-bold text-lg">LC</span>
+                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-1 shadow-lg">
+                      <img 
+                        src="/images/langchain.png" 
+                        alt="LangChain Logo" 
+                        className="w-full h-full object-contain"
+                      />
                     </div>
                     <h3 className="font-semibold text-gray-900 text-lg mb-2">LangChain</h3>
                     <p className="text-gray-600 text-sm">Framework para construir aplicaciones con LLMs</p>
@@ -368,8 +384,12 @@ const CaseStudies = () => {
                 
                 <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-3">
                   <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 text-center h-full">
-                    <div className="w-16 h-16 bg-gradient-to-br from-purple-600 to-purple-700 rounded-lg flex items-center justify-center mx-auto mb-4">
-                      <span className="text-white font-bold text-lg">LG</span>
+                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-1 shadow-lg">
+                      <img 
+                        src="/images/langgraph.png" 
+                        alt="LangGraph Logo" 
+                        className="w-full h-full object-contain"
+                      />
                     </div>
                     <h3 className="font-semibold text-gray-900 text-lg mb-2">LangGraph</h3>
                     <p className="text-gray-600 text-sm">Construcción de agentes de IA complejos</p>
@@ -378,8 +398,12 @@ const CaseStudies = () => {
                 
                 <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-3">
                   <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 text-center h-full">
-                    <div className="w-16 h-16 bg-gradient-to-br from-purple-400 to-purple-500 rounded-lg flex items-center justify-center mx-auto mb-4">
-                      <span className="text-white font-bold text-lg">LS</span>
+                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-1 shadow-lg">
+                      <img 
+                        src="/images/langsmith.png" 
+                        alt="LangSmith Logo" 
+                        className="w-full h-full object-contain"
+                      />
                     </div>
                     <h3 className="font-semibold text-gray-900 text-lg mb-2">LangSmith</h3>
                     <p className="text-gray-600 text-sm">Observabilidad y debugging para aplicaciones LLM</p>
@@ -389,8 +413,12 @@ const CaseStudies = () => {
                 {/* Backend & APIs */}
                 <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-3">
                   <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 text-center h-full">
-                    <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-lg flex items-center justify-center mx-auto mb-4">
-                      <span className="text-white font-bold text-lg">FA</span>
+                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-1 shadow-lg">
+                      <img 
+                        src="/images/fastapi.png" 
+                        alt="FastAPI Logo" 
+                        className="w-full h-full object-contain"
+                      />
                     </div>
                     <h3 className="font-semibold text-gray-900 text-lg mb-2">FastAPI</h3>
                     <p className="text-gray-600 text-sm">Framework web moderno y rápido para Python</p>
@@ -399,8 +427,12 @@ const CaseStudies = () => {
                 
                 <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-3">
                   <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 text-center h-full">
-                    <div className="w-16 h-16 bg-gradient-to-br from-yellow-600 to-yellow-700 rounded-lg flex items-center justify-center mx-auto mb-4">
-                      <span className="text-white font-bold text-lg">Py</span>
+                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-1 shadow-lg">
+                      <img 
+                        src="/images/python.png" 
+                        alt="Python Logo" 
+                        className="w-full h-full object-contain"
+                      />
                     </div>
                     <h3 className="font-semibold text-gray-900 text-lg mb-2">Python</h3>
                     <p className="text-gray-600 text-sm">Lenguaje principal para desarrollo de IA</p>
@@ -410,8 +442,12 @@ const CaseStudies = () => {
                 {/* Data & Search */}
                 <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-3">
                   <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 text-center h-full">
-                    <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-lg flex items-center justify-center mx-auto mb-4">
-                      <span className="text-white font-bold text-lg">Ch</span>
+                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-1 shadow-lg">
+                      <img 
+                        src="/images/chroma.png" 
+                        alt="Chroma Logo" 
+                        className="w-full h-full object-contain"
+                      />
                     </div>
                     <h3 className="font-semibold text-gray-900 text-lg mb-2">Chroma</h3>
                     <p className="text-gray-600 text-sm">Base de datos vectorial para embeddings</p>
@@ -420,8 +456,12 @@ const CaseStudies = () => {
                 
                 <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-3">
                   <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 text-center h-full">
-                    <div className="w-16 h-16 bg-gradient-to-br from-red-600 to-red-700 rounded-lg flex items-center justify-center mx-auto mb-4">
-                      <span className="text-white font-bold text-lg">ES</span>
+                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-1 shadow-lg">
+                      <img 
+                        src="/images/elastic.png" 
+                        alt="Elasticsearch Logo" 
+                        className="w-full h-full object-contain"
+                      />
                     </div>
                     <h3 className="font-semibold text-gray-900 text-lg mb-2">Elasticsearch</h3>
                     <p className="text-gray-600 text-sm">Motor de búsqueda y análisis de datos</p>
@@ -431,8 +471,12 @@ const CaseStudies = () => {
                 {/* Frontend & UI */}
                 <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-3">
                   <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 text-center h-full">
-                    <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-lg flex items-center justify-center mx-auto mb-4">
-                      <span className="text-white font-bold text-lg">St</span>
+                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-1 shadow-lg">
+                      <img 
+                        src="/images/streamlit.png" 
+                        alt="Streamlit Logo" 
+                        className="w-full h-full object-contain"
+                      />
                     </div>
                     <h3 className="font-semibold text-gray-900 text-lg mb-2">Streamlit</h3>
                     <p className="text-gray-600 text-sm">Creación rápida de apps web para ML</p>
@@ -441,8 +485,12 @@ const CaseStudies = () => {
                 
                 <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-3">
                   <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 text-center h-full">
-                    <div className="w-16 h-16 bg-gradient-to-br from-indigo-600 to-indigo-700 rounded-lg flex items-center justify-center mx-auto mb-4">
-                      <span className="text-white font-bold text-lg">AA</span>
+                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-1 shadow-lg">
+                      <img 
+                        src="/images/azure apps.jpeg" 
+                        alt="Azure Apps Logo" 
+                        className="w-full h-full object-contain"
+                      />
                     </div>
                     <h3 className="font-semibold text-gray-900 text-lg mb-2">Azure Apps</h3>
                     <p className="text-gray-600 text-sm">Servicios de aplicaciones web gestionadas</p>
@@ -452,8 +500,12 @@ const CaseStudies = () => {
                 {/* Message Queues */}
                 <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-3">
                   <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 text-center h-full">
-                    <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center mx-auto mb-4">
-                      <span className="text-white font-bold text-lg">RMQ</span>
+                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-1 shadow-lg">
+                      <img 
+                        src="/images/rabbit.png" 
+                        alt="RabbitMQ Logo" 
+                        className="w-full h-full object-contain"
+                      />
                     </div>
                     <h3 className="font-semibold text-gray-900 text-lg mb-2">RabbitMQ</h3>
                     <p className="text-gray-600 text-sm">Sistema de mensajería asíncrona</p>
@@ -463,8 +515,12 @@ const CaseStudies = () => {
                 {/* Web Technologies */}
                 <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-3">
                   <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 text-center h-full">
-                    <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-lg flex items-center justify-center mx-auto mb-4">
-                      <span className="text-white font-bold text-lg">R</span>
+                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-1 shadow-lg">
+                      <img 
+                        src="/images/react.png" 
+                        alt="React Logo" 
+                        className="w-full h-full object-contain"
+                      />
                     </div>
                     <h3 className="font-semibold text-gray-900 text-lg mb-2">React</h3>
                     <p className="text-gray-600 text-sm">Framework frontend para interfaces modernas</p>
@@ -473,8 +529,12 @@ const CaseStudies = () => {
                 
                 <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-3">
                   <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 text-center h-full">
-                    <div className="w-16 h-16 bg-gradient-to-br from-cyan-600 to-cyan-700 rounded-lg flex items-center justify-center mx-auto mb-4">
-                      <span className="text-white font-bold text-lg">JS</span>
+                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-4 p-1 shadow-lg">
+                      <img 
+                        src="/images/js.png" 
+                        alt="JavaScript Logo" 
+                        className="w-full h-full object-contain"
+                      />
                     </div>
                     <h3 className="font-semibold text-gray-900 text-lg mb-2">JavaScript</h3>
                     <p className="text-gray-600 text-sm">Lenguaje web para desarrollo frontend</p>
