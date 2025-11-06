@@ -2,6 +2,7 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
+import Chatbot from '../Chatbot/Chatbot';
 
 const Layout = () => {
   return (
@@ -16,6 +17,9 @@ const Layout = () => {
       
       {/* Footer fijo en la parte inferior */}
       <Footer />
+      
+      {/* Chatbot flotante */}
+      <Chatbot />
     </div>
   );
 };
